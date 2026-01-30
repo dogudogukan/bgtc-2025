@@ -15,7 +15,11 @@ r_{i,t+1} = β_{i,t}' f_{t+1} + ε
 β_{i,t} = Γ' Z_{i,t}
 ```
 
-Where factor loadings (β) are linear functions of observable characteristics (Z). We use four characteristics: 1-month momentum, 9-period RSI, 90-day volatility, and 30-day SMA.
+Where factor loadings (β) are linear functions of observable characteristics (Z). We use following characteristics by adapting our code:
+Momentum candidates included 3-day, 5-day, 1-month, 1-month to 6-month, and 1-month to 12-month
+Volatility candidates included 7-day, 10-day, 30-day, 60-day, and 90-day rolling windows
+RSI candidates included 9-day, 14-day, and 30-day windows
+SMA candidates included 7-day, 10-day, 20-day, 30-day, and 60-day moving averages
 
 ## Files
 
